@@ -12,7 +12,7 @@ Your web application will be exposed at http://localhost:3000
 * Use the Reddit API to get a list of reddits. May use any endpoint.
 	-example api endpoint: https://www.reddit.com/r/aww.json
     -the format is: https://www.reddit.com/r/[subreddit_name].json
-* App.ts - initialize app and configure router
+* App.js - initialize app and configure router
 * Models: define types for reddit items, details
 * Services:
 	-getRedditList() function:

@@ -1,0 +1,9 @@
+div class="container" ng-controller="listController" x-ng-init="getList()">
+	<div class="jumbotron">
+	<div ng-repeat="gif in gifs">
+		<div>
+			<img ng-src="{{ gif.thumbnail }}" alt="">
+			<a ng-href="#/{{ gif.id }}">{{ gif.title }}</a>
+		</div>
+	</div>
+</div>
